@@ -1,0 +1,11 @@
+age_groups <- c("5-6 years", "7-8 years", "9-10 years")
+  photograph_B <- c(22, 28, 10)
+  photograph_C <- c(20, 40, 40)
+  cov_BC <- cov(photograph_B, photograph_C)
+  cor_BC <- cor(photograph_B, photograph_C)
+  print(cov_BC)
+  print(cor_BC)
+  cov(cbind(photograph_B,photograph_C))
+cor(cbind(photograph_B,photograph_C))
+ 
+
